@@ -1,0 +1,82 @@
+#sectionAbout{
+    background-color: #D4CCAB;
+}
+
+#divAbout{
+    background-color: #D4CCAB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 6.5rem;
+    align-items: flex-start;
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+   
+}
+
+#divImageAbout{
+    margin: auto;
+}
+
+#divImageAbout img{
+    border-radius: 1rem;
+    border: 1px solid rgba(17, 17, 17, 0.247);
+    box-shadow: 1px 1px 2px 1px rgba(2, 2, 2, 0.329);
+    width: 33rem;
+}
+
+.textAbout{
+    font: normal 1.3rem 'Dosis', sans-serif;
+}
+
+@media(max-width: 1366px){
+
+    #divAbout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    #divImageAbout img{
+        width: 27rem;
+    }
+
+    .textAbout{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 1080px){
+    #divAbout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr;
+        align-items: center;
+    }
+    #divImageAbout img{
+        width: 23rem;
+    }
+}
+
+@media(max-width: 790px){
+    #divAbout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        align-items: center;
+    }
+    #divImageAbout img{
+        width: 23rem;
+    }
+}
+
+@media(max-width: 650px){
+    #divAbout{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        align-items: center;
+    }
+    #divImageAbout img{
+        width: 16rem;
+    }
+}
+
+

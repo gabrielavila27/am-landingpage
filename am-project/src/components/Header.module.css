@@ -1,0 +1,42 @@
+#header{
+    background-color: #D4CCAB;
+}
+
+#navList{
+    padding: 2rem;
+    text-align: center;
+}
+
+.navItem{
+    display: inline;
+    margin-left: 5rem;
+    
+}
+
+.navItem a{
+    font: normal 1.4rem 'Dosis', sans-serif;
+    color: white;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navItem a:hover{
+    color: white;
+    
+}
+
+@media(max-width: 1080px){
+
+    #navList{
+        padding: 1rem;
+    }
+
+    .navItem{
+        margin-left: 3rem;
+        
+    }
+    .navItem a{
+        font-size: 1.2rem;
+    }
+}

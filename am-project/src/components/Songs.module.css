@@ -1,0 +1,109 @@
+#sectionSongs{
+    background-color: black;
+    
+}
+
+#divSongs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    color: white;
+    font: normal 1.3rem 'Dosis', sans-serif;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 6rem;
+}
+
+#divTextSongs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#divVideo{
+    margin: auto;
+}
+
+#video{
+    width: 45rem;
+    height: 29rem;
+    border: 1rem solid #D4CCAB;
+    box-shadow: 1px 1px 2px 1px #fafaf94b;
+}
+
+#listSongs{
+    list-style: none;
+}
+
+#listSongs li{
+    margin-bottom: 0.5rem;
+}
+
+#listSongs li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#listSongs li a:hover{
+ color: #D4CCAB;
+}
+
+#divTextSongs h2{
+    font-size: 3rem ;
+}
+
+
+@media(max-width: 1366px){
+    #divSongs{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        align-items: center;
+    }
+}
+
+@media(max-width: 1080px){
+    #divSongs{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr;
+        align-items: center;
+    }
+    #video{
+        width: 40rem;
+        height: 25rem;
+    }
+
+    #divTextSongs h2{
+        font-size: 2.5rem;
+    }
+
+    #divTextSongs h3{
+        font-size: 1.3rem;
+    }
+
+    #divSongs li{
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width: 790px){
+    #video{
+        width: 30rem;
+        height: 20rem;
+    }
+
+}
+
+@media(max-width: 650px){
+    #video{
+        width: 19rem;
+        height: 14rem;
+    }
+
+    #divSongs{
+        grid-template-rows: 1fr 1fr;
+    }
+}

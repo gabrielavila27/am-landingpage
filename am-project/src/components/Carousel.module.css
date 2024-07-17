@@ -1,0 +1,11 @@
+#main{
+    background-color: black;
+}
+
+
+
+.image{
+    width: 100%;
+    height: calc(100vh - 6rem);
+    object-fit: contain;
+}
